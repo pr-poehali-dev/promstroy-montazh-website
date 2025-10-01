@@ -215,7 +215,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Адрес</h3>
-                    <p className="text-muted-foreground">г. Омск, ул. Промышленная, д. 25</p>
+                    <p className="text-muted-foreground">г. Омск, бульвар Зеленый, д. 9, корп. 2</p>
                   </div>
                 </div>
 
@@ -326,7 +326,7 @@ const Index = () => {
             <div>
               <h4 className="font-heading font-bold text-white mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-white/70">
-                <li>г. Омск, ул. Промышленная, 25</li>
+                <li>г. Омск, бульвар Зеленый, 9/2</li>
                 <li>+7 (3812) 555-555</li>
                 <li>info@promsm-omsk.ru</li>
               </ul>
