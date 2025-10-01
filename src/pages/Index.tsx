@@ -47,13 +47,13 @@ const Index = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl animate-fade-in">
             <div className="inline-block bg-primary/20 border border-primary px-4 py-2 rounded-full mb-6">
-              <span className="text-primary font-semibold">30 лет опыта</span>
+              <span className="text-primary font-semibold">Профессиональный монтаж</span>
             </div>
             <h2 className="font-heading font-bold text-5xl md:text-6xl text-white mb-6 leading-tight">
-              Промышленное строительство полного цикла
+              Инженерные системы под ключ
             </h2>
             <p className="text-xl text-white/80 mb-8 leading-relaxed">
-              Проектирование, строительство и монтаж промышленных объектов любой сложности в Омске и области
+              Монтаж отопления, кондиционирования и санитарно-технических систем для вашего объекта в Омске
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-semibold px-8">
               Получить консультацию
@@ -70,24 +70,24 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Icon name="HardHat" size={32} className="text-primary" />
               </div>
-              <h3 className="font-heading font-bold text-2xl mb-2">Безопасность</h3>
-              <p className="text-muted-foreground">Соблюдение всех норм охраны труда и промышленной безопасности</p>
+              <h3 className="font-heading font-bold text-2xl mb-2">Гарантия качества</h3>
+              <p className="text-muted-foreground">Все работы выполняем с соблюдением строительных норм и стандартов</p>
             </Card>
             
             <Card className="p-6 hover:shadow-lg transition-shadow animate-fade-in border-l-4 border-l-primary" style={{animationDelay: '0.1s'}}>
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Icon name="Clock" size={32} className="text-primary" />
               </div>
-              <h3 className="font-heading font-bold text-2xl mb-2">Точные сроки</h3>
-              <p className="text-muted-foreground">Гарантируем выполнение работ в установленные договором сроки</p>
+              <h3 className="font-heading font-bold text-2xl mb-2">Опытные специалисты</h3>
+              <p className="text-muted-foreground">Квалифицированные монтажники с большим опытом работ</p>
             </Card>
             
             <Card className="p-6 hover:shadow-lg transition-shadow animate-fade-in border-l-4 border-l-primary" style={{animationDelay: '0.2s'}}>
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Icon name="Award" size={32} className="text-primary" />
               </div>
-              <h3 className="font-heading font-bold text-2xl mb-2">Качество</h3>
-              <p className="text-muted-foreground">Высокие стандарты качества на всех этапах строительства</p>
+              <h3 className="font-heading font-bold text-2xl mb-2">Полный цикл работ</h3>
+              <p className="text-muted-foreground">От проектирования до запуска и обслуживания систем</p>
             </Card>
           </div>
         </div>
@@ -102,19 +102,23 @@ const Index = () => {
               </div>
               <h2 className="font-heading font-bold text-4xl mb-6">ООО "ПромСтройМонтаж"</h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Под руководством генерального директора Барковского А.Н. с 1994 года мы специализируемся на строительстве и монтаже промышленных объектов в Омске и Омской области.
+                Торгово-монтажная компания под руководством директора Барковского Н.Ф. Специализируемся на производстве санитарно-технических работ, монтаже отопительных систем и систем кондиционирования воздуха.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                За 30 лет работы мы реализовали более 200 проектов различной сложности — от небольших производственных цехов до крупных промышленных комплексов.
+                Осуществляем профессиональный монтаж инженерных систем, установку и обслуживание газового оборудования, замену и опломбировку счетчиков.
               </p>
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="border-l-4 border-primary pl-4">
-                  <div className="text-3xl font-heading font-bold text-primary mb-1">200+</div>
-                  <div className="text-sm text-muted-foreground">Реализованных проектов</div>
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center gap-3">
+                  <Icon name="FileText" size={20} className="text-primary" />
+                  <div className="text-sm">
+                    <span className="font-semibold">ИНН:</span> 5507230160
+                  </div>
                 </div>
-                <div className="border-l-4 border-primary pl-4">
-                  <div className="text-3xl font-heading font-bold text-primary mb-1">30</div>
-                  <div className="text-sm text-muted-foreground">Лет на рынке</div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Hash" size={20} className="text-primary" />
+                  <div className="text-sm">
+                    <span className="font-semibold">ОГРН:</span> 1125543018875
+                  </div>
                 </div>
               </div>
             </div>
@@ -140,57 +144,57 @@ const Index = () => {
             </div>
             <h2 className="font-heading font-bold text-4xl mb-4">Наши услуги</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Полный спектр работ по промышленному строительству
+              Комплексное обслуживание инженерных систем
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in">
               <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <Icon name="Pencil" size={28} className="text-white" />
+                <Icon name="Thermometer" size={28} className="text-white" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">Проектирование</h3>
-              <p className="text-muted-foreground">Разработка проектной документации для промышленных объектов с учётом всех технических требований</p>
+              <h3 className="font-heading font-bold text-xl mb-3">Монтаж отопления</h3>
+              <p className="text-muted-foreground">Установка радиаторов, котлов, тёплых полов. Разводка труб и запуск системы отопления</p>
             </Card>
 
             <Card className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in" style={{animationDelay: '0.1s'}}>
               <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <Icon name="Building2" size={28} className="text-white" />
+                <Icon name="Wind" size={28} className="text-white" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">Строительство</h3>
-              <p className="text-muted-foreground">Возведение промышленных зданий и сооружений под ключ с соблюдением всех норм и стандартов</p>
+              <h3 className="font-heading font-bold text-xl mb-3">Кондиционирование</h3>
+              <p className="text-muted-foreground">Установка и обслуживание кондиционеров, систем вентиляции и климат-контроля</p>
             </Card>
 
             <Card className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in" style={{animationDelay: '0.2s'}}>
               <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <Icon name="Wrench" size={28} className="text-white" />
+                <Icon name="Droplets" size={28} className="text-white" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">Монтаж оборудования</h3>
-              <p className="text-muted-foreground">Установка и наладка промышленного оборудования любой сложности</p>
+              <h3 className="font-heading font-bold text-xl mb-3">Водоснабжение</h3>
+              <p className="text-muted-foreground">Монтаж систем холодного и горячего водоснабжения, установка сантехники</p>
             </Card>
 
             <Card className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in" style={{animationDelay: '0.3s'}}>
               <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <Icon name="Zap" size={28} className="text-white" />
+                <Icon name="Gauge" size={28} className="text-white" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">Электромонтаж</h3>
-              <p className="text-muted-foreground">Прокладка силовых и слаботочных сетей, монтаж электрооборудования</p>
+              <h3 className="font-heading font-bold text-xl mb-3">Установка счётчиков</h3>
+              <p className="text-muted-foreground">Замена и опломбировка счётчиков воды, газа и тепла. Оформление документов</p>
             </Card>
 
             <Card className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in" style={{animationDelay: '0.4s'}}>
               <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <Icon name="Droplets" size={28} className="text-white" />
+                <Icon name="Flame" size={28} className="text-white" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">Сантехнические работы</h3>
-              <p className="text-muted-foreground">Монтаж систем водоснабжения, канализации и вентиляции</p>
+              <h3 className="font-heading font-bold text-xl mb-3">Газовое оборудование</h3>
+              <p className="text-muted-foreground">Установка газовых котлов, колонок, плит. Техническое обслуживание газового оборудования</p>
             </Card>
 
             <Card className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in" style={{animationDelay: '0.5s'}}>
               <div className="w-14 h-14 bg-primary rounded-lg flex items-center justify-center mb-4">
-                <Icon name="Settings" size={28} className="text-white" />
+                <Icon name="Wrench" size={28} className="text-white" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">Пусконаладка</h3>
-              <p className="text-muted-foreground">Комплексная наладка оборудования и систем перед вводом в эксплуатацию</p>
+              <h3 className="font-heading font-bold text-xl mb-3">Ремонт и обслуживание</h3>
+              <p className="text-muted-foreground">Техническое обслуживание и ремонт всех видов инженерных систем</p>
             </Card>
           </div>
         </div>
@@ -215,7 +219,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Адрес</h3>
-                    <p className="text-muted-foreground">г. Омск, бульвар Зеленый, д. 9, корп. 2</p>
+                    <p className="text-muted-foreground">г. Омск, бульвар Зеленый, 9/2<br/>Комплекс Тройка, офис 11, 2 этаж<br/>6-й микрорайон, Кировский округ</p>
                   </div>
                 </div>
 
@@ -225,7 +229,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-muted-foreground">+7 (3812) 555-555</p>
+                    <p className="text-muted-foreground">+7 (3812) ...</p>
                   </div>
                 </div>
 
@@ -245,7 +249,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Режим работы</h3>
-                    <p className="text-muted-foreground">Пн-Пт: 9:00 - 18:00<br/>Сб-Вс: выходной</p>
+                    <p className="text-muted-foreground">Пн-Пт: 08:30 - 17:00<br/>Сб-Вс: выходной</p>
                   </div>
                 </div>
               </div>
@@ -309,17 +313,17 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-white/70 text-sm">
-                Промышленное строительство и монтаж с 1994 года
+                Санитарно-технические работы, монтаж систем отопления и кондиционирования
               </p>
             </div>
 
             <div>
               <h4 className="font-heading font-bold text-white mb-4">Услуги</h4>
               <ul className="space-y-2 text-sm text-white/70">
-                <li>Проектирование</li>
-                <li>Строительство</li>
-                <li>Монтаж оборудования</li>
-                <li>Пусконаладка</li>
+                <li>Санитарно-технические работы</li>
+                <li>Монтаж систем отопления</li>
+                <li>Монтаж кондиционирования</li>
+                <li>Установка счетчиков</li>
               </ul>
             </div>
 
@@ -327,8 +331,8 @@ const Index = () => {
               <h4 className="font-heading font-bold text-white mb-4">Контакты</h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li>г. Омск, бульвар Зеленый, 9/2</li>
-                <li>+7 (3812) 555-555</li>
-                <li>info@promsm-omsk.ru</li>
+                <li>Комплекс Тройка, офис 11</li>
+                <li>Пн-Пт: 08:30 - 17:00</li>
               </ul>
             </div>
           </div>
